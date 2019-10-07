@@ -3,6 +3,7 @@ body{
     padding: 0;
 }
 
+/* Header CSS Section */
 .heading{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -34,3 +35,27 @@ body{
     color: azure;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Main Content CSS section */
+.humber-logo{
+    text-align: left;
+    margin: 1em;
+}
+
+.searchbox{
+    margin: 0.5em;
+}
+
+.course-searchbox{
+    width: 100%;
+    padding: 0.50em 0.50em;
+    border-radius: 0.2em;
+    border: 0 solid;
+    background-color: rgb(48, 46, 46);
+    background-image: url('/img/search.svg');
+    background-repeat: no-repeat;
+    background-position: 0.50em;
+    color: #fff;
+    padding-left: 1.8em;
+}
+
