@@ -44,6 +44,10 @@ body{
     margin: 1em;
 }
 
+.humber-logo-img{
+    max-width: 50%;
+}
+
 .searchbox{
     margin: 0.5em;
 }
@@ -63,6 +67,10 @@ body{
 
 .courses{
     padding: 0 0.5em 0 0.5em;
+}
+
+.course-image{
+    max-width: 40%;
 }
 
 .course-one {
