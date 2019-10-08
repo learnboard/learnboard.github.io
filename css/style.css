@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -75,11 +77,25 @@ body{
     padding: 0 1em 0 1em;
 }
 
-.main-footer{
+.course-link{
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.real-world{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: black;
+    grid-template-columns: 2fr 2fr;
+    font-family: 'Playfair Display', serif;
     text-align: center;
     color: #fff;
     margin: 1em 0;
+    font-size: 1.5em;
+}
+
+.connection{
+    background-color: rgb(11, 14, 31);
+}
+
+.work-experience{
+    background-color: rgb(63, 53, 105);
 }
