@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+   @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 
 body{
     margin: 0;
@@ -26,14 +26,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .logo{
-    
-} */
+.logo{
+    padding: 0.5em;
+}
 
 .log{
     margin: 1em;
     text-align: right;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: azure;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -62,23 +62,34 @@ body{
     background-repeat: no-repeat;
     background-position: 0.50em;
     color: #fff;
-    padding-left: 1.8em;
+    padding-left: 2.5em;
 }
 
 .courses{
     padding: 0 0.5em 0 0.5em;
 }
 
-.course-image{
-    max-width: 40%;
+.browse{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.course-one {
+.notific{
+    text-align: right;
+    color: blue;
+}
+
+.course-image{
+    max-width: 50%;
+}
+
+.course {
     background-color: white;
     text-align: left;
-    box-shadow: 0.5em 0.5em 3em black;
+    box-shadow: 0.5em 0.5em 4em rgb(202, 201, 201);
     border-radius: 0.2em;
     padding: 1em;
+    margin: 0.5em 0;
 }
 
 .course-info {
