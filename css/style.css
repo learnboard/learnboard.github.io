@@ -80,7 +80,7 @@ body{
 }
 
 .course-image{
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .course {
@@ -117,4 +117,19 @@ body{
 
 .work-experience{
     background-color: rgb(63, 53, 105);
+}
+
+.nav-button{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+    text-align: center;
+}
+
+.nav-image{
+    width: 50%;
+}
+
+.slack{
+    padding: 0.5em 0;;
 }
