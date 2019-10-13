@@ -1,5 +1,5 @@
    @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-
+   @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -28,6 +28,10 @@ body{
 
 .logo{
     padding: 0.5em;
+}
+
+.logo-img{
+    max-width: 80%;
 }
 
 .log{
@@ -83,6 +87,10 @@ body{
     max-width: 100%;
 }
 
+.notification-img{
+    max-width: 25%;
+}
+
 .course {
     background-color: white;
     text-align: left;
@@ -98,7 +106,14 @@ body{
 
 .course-link{
     text-decoration: none;
+    font-family: 'Oswald', sans-serif;
     font-size: 0.9em;
+    font-weight: bold;
+}
+
+.instructor-name{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: brown; 
 }
 
 .real-world{
