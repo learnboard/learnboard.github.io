@@ -148,3 +148,56 @@ body{
 .slack{
     padding: 0.5em 0;;
 }
+
+/* MEDIA QUERIES STARTS HERE */
+@media screen and (min-width: 40em){
+    .logo-img{
+        max-width: 50%;
+    }
+
+    .humber-logo-img{
+        max-width: 30%;
+    }
+
+    .searchbox{
+        max-width: 40%;
+    }
+
+    .course-image{
+        max-width: 50%;
+    }
+
+    .notification-img{
+        max-width: 10%;
+    }
+
+    .instructor-name{
+        color: green; 
+    }
+}
+
+@media screen and (min-width: 80em){
+    .logo-img{
+        max-width: 30%;
+    }
+
+    .humber-logo-img{
+        max-width: 30%;
+    }
+
+    .searchbox{
+        max-width: 40%;
+    }
+
+    .course-image{
+        max-width: 25%;
+    }
+
+    .notification-img{
+        max-width: 5%;
+    }
+
+    .instructor-name{
+        color: red; 
+    }
+}
