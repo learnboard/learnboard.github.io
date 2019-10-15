@@ -205,6 +205,10 @@ body{
         grid-template-columns: 1fr;
         grid-gap: 0.5em;
     }
+
+    .slack{
+        padding: 2em 0;;
+    }
 }
 
 @media screen and (min-width: 80em){
@@ -239,5 +243,9 @@ body{
     .my-courses{
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 0.5em;
+    }
+
+    .slack{
+        padding: 3em 0;;
     }
 }
