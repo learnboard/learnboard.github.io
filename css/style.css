@@ -27,7 +27,8 @@ body{
 }
 
 .logo{
-    padding: 0.5em;
+    padding: 1em;
+    text-align: center;
 }
 
 .logo-img{
@@ -42,7 +43,6 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* Main Content CSS section */
 .humber-logo{
     text-align: left;
     margin: 1em;
@@ -69,6 +69,7 @@ body{
     padding-left: 2.5em;
 }
 
+/* Main Content CSS section */
 .courses{
     padding: 0 0.5em 0 0.5em;
 }
@@ -209,6 +210,11 @@ body{
     .slack{
         padding: 2em 0;;
     }
+
+    .due-timeline{
+        text-align: center;
+        width: 70%;
+    }
 }
 
 @media screen and (min-width: 80em){
@@ -247,5 +253,14 @@ body{
 
     .slack{
         padding: 3em 0;;
+    }
+
+    .nav-image{
+        width: 20%;
+    }
+
+    .due-timeline{
+        text-align: center;
+        width: 30%;
     }
 }
